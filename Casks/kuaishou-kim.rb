@@ -1,9 +1,9 @@
 cask "kuaishou-kim" do
   arch arm: "-arm"
 
-  version "5.0.4,59510"
-  sha256 arm:   "266fab10eb206e27e3f5200dd59e5f7573d2cb6fcd734996b7327a8d6fb238de",
-         intel: "fec0209e4217e3ff0014d269829ebf494737a008f3f6873adbfd67aa2aa3a948"
+  version "5.0.5,59640"
+  sha256 arm:   "9b15259e79e8ba6a8ab7d9c22d9e6196b1838b18b2df8abd425a9118fc3379f4",
+         intel: "cf734aa9bbf1f44f820e00f9f12a476594ebc45081bf7228902481886c17be37"
 
   url "https://kim.static.yximgs.com/udata/pkg/kim-install/Kim-#{version.csv.first}-#{version.csv.second}#{arch}.dmg",
       verified: "kim.static.yximgs.com/udata/pkg/kim-install/"
